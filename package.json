@@ -1,0 +1,26 @@
+{
+  "name": "jolt.sh",
+  "version": "1.0.0",
+  "description": "Run shell commands in Node the right way!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielratener/jolt.sh.git"
+  },
+  "keywords": [
+    "awesome",
+    "fantastic",
+    "sublime",
+    "supreme",
+    "sweet"
+  ],
+  "author": "Gabriel Ratener",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielratener/jolt.sh/issues"
+  },
+  "homepage": "https://github.com/gabrielratener/jolt.sh#readme"
+}
