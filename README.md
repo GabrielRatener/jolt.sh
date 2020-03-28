@@ -134,9 +134,11 @@ context().run(($) => {
 
 If so send me an email or open an issue with the `documentation` tag.
 
-#### Is there something awesome you wish Jolt.sh would do?
+#### Is there something awesome you wish JOLT.SH would do?
 
 If so, open an issue and let the discussion begin!
+
+### Oh, and by the way, JOLT.SH uses **0** third-party dependencies!
 
 Cheers!
 Gabe
