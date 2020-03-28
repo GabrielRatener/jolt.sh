@@ -6,6 +6,8 @@
 
 ### Basic Usage
 
+At it's core JOLT.SH allows you to run shell commands from your NodeJS codebase safely and elegantly by making use of tagged ES6 template strings. This allows you can safely interpolate JS expressions as arguments to your shell commands, yet the code look nearly like running a shell script inside your JavaScript!
+
 ```js
 
 const {$} = require('jolt.sh');
@@ -33,6 +35,8 @@ $`rm ${"a te&&ible'filename"}`;
 
 #### *createAsyncRunner([options])*
 
+Allows you to asynchronously run commands and get their outputs without blocking the current thread.
+
 ```js
 
 const {createAsyncRunner} = require('jolt.sh');
@@ -52,6 +56,8 @@ const {createAsyncRunner} = require('jolt.sh');
 ```
 
 #### *createSpawnRunner([options])*
+
+For asynchronously listening to output from your commands.
 
 ```js
 
