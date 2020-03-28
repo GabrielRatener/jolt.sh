@@ -1,7 +1,7 @@
 {
   "name": "jolt.sh",
-  "version": "1.0.1",
-  "description": "Run shell commands in Node the right way!",
+  "version": "1.0.2",
+  "description": "Elegantly run bash scripts in Node!",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
