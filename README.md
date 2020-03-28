@@ -31,7 +31,7 @@ $`rm ${"a te&&ible'filename"}`;
 
 ### Let's get fancy
 
-#### `createAsyncRunner([options])`
+#### *createAsyncRunner([options])*
 
 ```js
 
@@ -51,7 +51,7 @@ const {createAsyncRunner} = require('jolt.sh');
 
 ```
 
-#### `createSpawnRunner([options])`
+#### *createSpawnRunner([options])*
 
 ```js
 
@@ -73,7 +73,7 @@ const {createSpawnRunner} = require('jolt.sh');
 
 ```
 
-#### `context([options])`
+#### *context([options])*
 
 Regular runners only allow an isolated command to be called. However `context()` solves this problem by allowing commands to elegantly and safely be concatenated.
 
@@ -128,6 +128,9 @@ context().run(($) => {
 
 If so send me an email or open an issue with the `documentation` tag.
 
-#### Is there something awesome you which Jolt.sh would do?
+#### Is there something awesome you wish Jolt.sh would do?
 
-If so, open an issue, and let the discussion begin!
+If so, open an issue and let the discussion begin!
+
+Cheers!
+Gabe
